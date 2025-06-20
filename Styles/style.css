@@ -53,8 +53,9 @@ body {
     box-shadow: var(--box-shadow);
 }
 
-.header .logo {
-    font-size: 1.7rem;
+.header .logo img {
+    height: 3.5rem;
+    width: 3.5rem;
 }
 
 .header .navbar a{
@@ -87,4 +88,8 @@ body {
 
 .icon-logo img:hover{
     background-color: var(--green);
+}
+
+#menu-icon{
+    display: none;
 }
