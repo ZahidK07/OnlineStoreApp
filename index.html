@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./Styles/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Online Store App</title>
   </head>
@@ -14,6 +15,7 @@
       </a>
 
       <nav class="navbar">
+        <a href="#Products">Home</a>
         <a href="#Products">Products</a>
         <a href="#Categories">Categories</a>
         <a href="#Blogs">Blogs</a>
@@ -23,7 +25,7 @@
         <span class="icon-logo" id="menu-icon">
             <img src="./assests/icons/menu.png" alt="">
         </span>
-        <a href="" class="icon-logo">
+        <a href="" class="icon-logo" id="searchBtn">
           <img src="./assests/icons/search.png" alt="Search" />
         </a>
 
@@ -35,6 +37,13 @@
           <img src="./assests/icons/online-shopping.png" alt="Cart" />
         </a>
       </div>
+
+      <form action="" class="search-form">
+        <input type="text" id="search-box" placeholder="Search Here....">
+        <label for="search-box" class="fa fa-search">
+            <!-- <img src="./assests/icons/search.png" alt="" srcset=""> -->
+        </label>
+      </form>
     </header>
 
     <section class="">

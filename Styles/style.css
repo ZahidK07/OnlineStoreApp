@@ -40,6 +40,7 @@ body {
     background-color: #eee;
 }
 
+/* Header and Search Bar--------------------------- */
 .header {
 
     position: fixed;
@@ -93,3 +94,46 @@ body {
 #menu-icon{
     display: none;
 }
+
+.header .search-form{
+    position: absolute;
+    top: 110%;
+    right: -110%;
+    /* border: 1px solid; */
+    height: 4rem;
+    width: 45rem;
+    border-radius: .5rem;
+    background-color: white;
+    padding: .3rem;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+    transition: .4s linear;
+}
+
+.header .search-form.active{
+    right: 2rem;
+    transition: .4s linear;    
+}
+
+.header .search-form input{
+    height: 100%;
+    width: 100%;
+    background: none;
+    text-transform: none;
+    font-size: 1.6rem;
+    color: var(--black);
+    padding: 0 1rem;
+}
+
+.header .search-form label{
+    font-size: 1.7rem;
+    padding-right: 1.5rem;
+    cursor: pointer;
+}
+
+.header .search-form label:hover {
+    color: var(--green);
+}
+
+/* Header and Search Bar--------------------------- */
